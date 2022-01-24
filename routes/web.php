@@ -18,3 +18,7 @@ Route::get('/', 'HomeController@index')->name('home');
 Route::get('/about-us', 'PagesController@about')->name('about-us');
 
 Route::get('/contacts', 'PagesController@contacts')->name('contacts');
+
+Route::get('/pricing', 'PriceController@price')->name('pricing');
+
+Route::get('/faq', 'FaqController@faq')->name('faq');
