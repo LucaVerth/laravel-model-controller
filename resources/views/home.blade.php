@@ -30,6 +30,8 @@
                         </tr>
                     @empty
 
+                        <h2>Nessun Risultato Trovato</h2>
+
                     @endforelse
                 </tbody>
             </table>
